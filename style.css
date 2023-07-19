@@ -79,7 +79,7 @@ button {
 .column {
   width: 25%;
   float: left;
-  margin: 2%;
+  margin: 10%;
 }
 .row::after {
   content: "";
