@@ -15,9 +15,10 @@ body {
 /* Navbar */
 #topNav {
   width: 80%;
-  margin: 2% 10%;
+  margin: 4% 10%;
   padding-left: auto;
-  padding-right: auto;
+  padding-right: 25%;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   border-top: 1px solid gray;
