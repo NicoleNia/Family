@@ -16,10 +16,10 @@ body {
 #topNav {
   width: 80%;
   margin: 4% 5%;
-  padding-left: auto;
   padding-right: 150px;
   font-size: 20px;
   display: flex;
+  text-align: center;
   justify-content: center;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
