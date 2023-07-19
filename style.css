@@ -17,8 +17,8 @@ body {
   width: 80%;
   margin: 4% 10%;
   padding-left: auto;
-  padding-right: 25%;
-  font-size: 25px;
+  padding-right: 50%;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   border-top: 1px solid gray;
@@ -64,3 +64,24 @@ button {
   font-size: 25px;
   border-radius: 20px;
 }
+
+/* Upcoming Events */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: auto;
+}
+.container {
+  padding: 2px 16px;
+}
+
+.column {
+  width: 25%;
+  float: left;
+  margin: 2%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
