@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+#topNav {
+  width: 80%;
+  margin: 2% 10%;
+  padding-left: auto;
+  padding-right: auto;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+#topNav li {
+  list-style: none;
+  display: flex;
+  display: inline-block;
+}
+
+#topNav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: grey;
+}
+#topNav a.active {
+  color: #162B6F;
+}
+#topNav a:hover {
+  color: #162B6F;
+}
