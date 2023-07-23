@@ -13,6 +13,11 @@ body {
   padding: 0;
 }
 
+/* Header */
+.header {
+  font-size: 35px;
+}
+
 /* Navbar */
 #topNav {
   width: 80%;
