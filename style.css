@@ -1,3 +1,9 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif Khojki', serif;
+font-family: 'Oswald', sans-serif;
+*/
+
 html {
   box-sizing: border-box;
 }
@@ -15,11 +21,15 @@ body {
 
 /* Header */
 .header {
-  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px; 
+  padding-top: 40px;
+  color: #162B6F;
 }
 
 /* Navbar */
 #topNav {
+  font-family: 'Noto Serif Khojki', serif;
   width: 80%;
   margin: 5% 5%;
   font-size: 20px;
@@ -27,7 +37,7 @@ body {
   text-align: center;
   justify-content: center;
   border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #9E9E9E;
 }
 #topNav li {
   list-style: none;
@@ -38,7 +48,7 @@ body {
 #topNav a {
   padding: 50px 15px;
   text-decoration: none;
-  color: grey;
+  color: #9E9E9E;
 }
 #topNav a.active {
   color: #162B6F;
