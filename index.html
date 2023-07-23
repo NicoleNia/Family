@@ -79,7 +79,148 @@
         <div class="flex-child"> Flex Column 2 </div>
     </div>
 
+<!-- Shop Section --!>        
+    <div class="slideshow-container">
+        <div class="row">
+            <div class="mySlides fade">
+                <div class="numbertext"> 1 / 6 </div>
+                    <div class="column" style="margin-left: 10%;">
+                        <div class="card">
+                          <img src="Hi.png" alt="pic" style="width:100%">
+                          <div class="uecontainer">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="column" style="margin-left: 10%;">
+                        <div class="card">
+                          <img src="Hi.png" alt="pic" style="width:100%">
+                          <div class="uecontainer">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="column" style="margin-left: 10%;">
+                        <div class="card">
+                          <img src="Hi.png" alt="pic" style="width:100%">
+                          <div class="uecontainer">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                          </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="mySlides fade">
+                <div class="numbertext"> 1 / 6 </div>
+                    <div class="column" style="margin-left: 10%;">
+                        <div class="card">
+                          <img src="Hi.png" alt="pic" style="width:100%">
+                          <div class="uecontainer">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                          </div>
+                        </div>
+                     </div>
+                    <div class="column" style="margin-left: 10%;">
+                        <div class="card">
+                          <img src="Hi.png" alt="pic" style="width:100%">
+                          <div class="uecontainer">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                          </div>
+                        </div>
+                     </div>
+                    <div class="column" style="margin-left: 10%;">
+                        <div class="card">
+                          <img src="Hi.png" alt="pic" style="width:100%">
+                          <div class="uecontainer">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                          </div>
+                        </div>
+                     </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mySlides fade">
+                <div class="numbertext"> 1 / 6 </div>
+                    <div class="column" style="margin-left: 10%;">
+                        <div class="card">
+                          <img src="Hi.png" alt="pic" style="width:100%">
+                          <div class="uecontainer">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                          </div>
+                        </div>
+                     </div>
+                    <div class="column" style="margin-left: 10%;">
+                        <div class="card">
+                          <img src="Hi.png" alt="pic" style="width:100%">
+                          <div class="uecontainer">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                          </div>
+                        </div>
+                     </div>
+                    <div class="column" style="margin-left: 10%;">
+                        <div class="card">
+                          <img src="Hi.png" alt="pic" style="width:100%">
+                          <div class="uecontainer">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                          </div>
+                        </div>
+                     </div>
+            </div>
+        </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
 
       
     </body>
+        
+    <script>
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+
+
+        
+    </script>
 </html>
