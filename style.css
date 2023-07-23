@@ -35,9 +35,8 @@ h1 {
 /* Navbar */
 #topNav {
   font-family: 'Noto Serif Khojki', serif;
-  width: 80%;
   margin: 2% 5% 5%;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   text-align: center;
   justify-content: center;
