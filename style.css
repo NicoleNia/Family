@@ -87,3 +87,18 @@ button {
   display: table;
 }
 
+/* Blurb Sections */
+.flex-container {
+    display: flex;
+    margin: 20px;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+    background-color: blue;
+} 
+
