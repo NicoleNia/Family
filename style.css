@@ -24,24 +24,18 @@ h1 {
 }
 
 /* Header */
-.header {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
-  font-size: 25px; 
-  padding-top: 40px;
-  color: #162B6F;
+header {
+  height: 200px; 
 }
 
 /* Navbar */
 #topNav {
   font-family: 'Noto Serif Khojki', serif;
-  font-size: 18px;
   width: 80%;
   margin: 2% 5% 5%;
   position: fixed;
   text-align: center;
   background-color: white;
-  z-index: 5;
 }
 
 #topNav li {
@@ -49,13 +43,12 @@ h1 {
 }
 
 #topNav a {
-  padding-right: 10px;
+  font-size: 15px;
+  padding-right: 20px;
   text-decoration: none;
   color: #9E9E9E;
 }
-#topNav a: last-link {
-  padding-right: 0px;
-}
+
 #topNav a.active {
   color: #162B6F;
 }
@@ -65,7 +58,7 @@ h1 {
 #topNav a.split {
   padding-right: 75px;
   font-family: 'Oswald', sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   color: #162B6F;
 }
 
