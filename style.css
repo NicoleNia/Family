@@ -114,7 +114,6 @@ button {
 .column {
   width: 25%;
   float: left;
-  padding: 10px;
 }
 .row::after {
   content: "";
