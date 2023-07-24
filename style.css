@@ -26,17 +26,18 @@ h1 {
 /* Header */
 header {
   height: 75px; 
-  z-index: 1;
 }
 
 /* Navbar */
 #topNav {
   font-family: 'Noto Serif Khojki', serif;
   width: 80%;
-  margin: 2% 5% 5%;
+  height: 75px;
   position: fixed;
   text-align: left;
   background-color: white;
+  z-index: 1;
+
 }
 
 #topNav li {
