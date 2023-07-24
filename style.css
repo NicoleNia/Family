@@ -107,6 +107,7 @@ button {
 .card {
   width: auto;
   height: 500px;
+  border-style: solid;
   border-color: #162B6F; 
 }
 .uecontainer {
