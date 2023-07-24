@@ -35,29 +35,37 @@ h1 {
 /* Navbar */
 #topNav {
   font-family: 'Noto Serif Khojki', serif;
-  margin: 2% 5% 5%;
   font-size: 18px;
-  display: flex;
+  width: 80%;
+  margin: 2% 5% 5%;
+  position: fixed;
   text-align: center;
-  justify-content: center;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid #9E9E9E;
+  background-color: white;
+  z-index: 5;
 }
+
 #topNav li {
-  list-style: none;
-  display: flex;
   display: inline-block;
 }
 
 #topNav a {
-  padding: 0px 70px;
+  padding-right: 10px;
   text-decoration: none;
   color: #9E9E9E;
+}
+#topNav a: last-link {
+  padding-right: 0px;
 }
 #topNav a.active {
   color: #162B6F;
 }
 #topNav a:hover {
+  color: #162B6F;
+}
+#topNav a.split {
+  padding-right: 75px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
   color: #162B6F;
 }
 
