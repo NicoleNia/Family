@@ -25,7 +25,8 @@ h1 {
 
 /* Header */
 header {
-  height: 200px; 
+  height: 75px; 
+  z-index: 1;
 }
 
 /* Navbar */
@@ -34,7 +35,7 @@ header {
   width: 80%;
   margin: 2% 5% 5%;
   position: fixed;
-  text-align: center;
+  text-align: left;
   background-color: white;
 }
 
@@ -56,7 +57,7 @@ header {
   color: #162B6F;
 }
 #topNav a.split {
-  padding-right: 75px;
+  padding-right: 150px;
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
   color: #162B6F;
