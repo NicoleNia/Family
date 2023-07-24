@@ -31,7 +31,7 @@ header {
 /* Navbar */
 #topNav {
   font-family: 'Noto Serif Khojki', serif;
-  width: 60%;
+  margin-left: 30%;
   height: 75px;
   position: fixed;
   text-align: left;
