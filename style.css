@@ -25,13 +25,14 @@ h1 {
 
 /* Header */
 header {
-  height: 75px; 
+  height: 115px; 
 }
 
 /* Navbar */
 #topNav {
   font-family: 'Noto Serif Khojki', serif;
-  margin-left: 30%;
+  margin-left: 15%;
+  padding-top: 30px;
   height: 75px;
   position: fixed;
   text-align: left;
@@ -46,7 +47,7 @@ header {
 
 #topNav a {
   font-size: 15px;
-  padding-right: 20px;
+  padding-right: 40px;
   text-decoration: none;
   color: #9E9E9E;
 }
@@ -58,7 +59,7 @@ header {
   color: #162B6F;
 }
 #topNav a.split {
-  padding-right: 150px;
+  padding-right: 250px;
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
   color: #162B6F;
